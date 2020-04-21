@@ -1,0 +1,85 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - search_request
+  - inform
+  - roll_finder
+  - thanks
+  - out_of_scope
+
+entities:
+  - facility_type
+  - facility_id
+  - location
+  - name
+  - booln
+
+slots:
+  location:
+    type: unfeaturized
+  facility_type:
+    type: unfeaturized
+  facility_id:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  address:
+    type: unfeaturized
+
+forms:
+- facility_form
+
+actions:
+- utter_address
+- utter_goodbye
+- utter_iamabot
+- utter_greet_botdescription
+- utter_ask_location
+- utter_ask 
+- utter_pos_goodbye
+- utter_neg_goodbye
+- find_facility_types
+- find_healthcare_address
+- action_findroll
+
+responses:
+  utter_goodbye:
+  - text: "Talk to you later!"
+  - text: "Have a good day."
+  - text: "Until next time!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_greet_botdescription:
+  - text: "Hello, I am a medicare locator as weel as roll number finder of IITB students. How can i help?"
+  - text: "hey, my name is medicare locator cum roll number finder, How can i help you today?"
+  - text: "Hey there! Please choose one of the healthcare facility options:"
+
+  utter_ask_location:
+  - text: " to find the nearest {facility_type} please provide your location!"
+  - text: "Please provide your city name."
+  - text: "What is your current city?"
+  - text: "Please provide your city name or zip code."
+  - text: "Please enter your zip code or city name to find local providers."
+
+  utter_ask:
+  - text: " Was that correct?"
+
+  utter_pos_goodbye:
+  - text: " Great, Thanks for visiting us!"
+
+  utter_neg_goodbye:
+  - text: " Sorry, we will provide you with improved services next time!"
+
+  utter_address:
+  - text: "The address is {address}."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
