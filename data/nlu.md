@@ -1,214 +1,1046 @@
-## intent:greet
-- Hi
-- Hey
-- Hi bot
-- Hey bot
-- Hello
-- good morning
-- hi again
-- hi folks
-- hi Mister
-- hi pal!
-- hi there
-- greetings
-- hello everybody
-- hello is anybody there
-- hello robot
-- hi
-- hy
+## intent:chitchat/ask_builder
+- By whom were you oov?
+- By whom were you built?
+- Can I ask the name of the people who designed you?
+- Do you know who built you?
+- Do you know who made you?
+- May I ask who invented you?
+- Name the person who built you.
+- Tell me the name of the individual who created you.
+- Tell me the name of the person who built you.
+- Tell me the name of your creator.
+- Tell me who built you.
+- What is the name of your builder?
+- What person built you?
+- Who built you?
+- oov oov oov
+- Who created and built you?
+- Who created you?
+- Who designed you?
+- Who developed and created you?
+- Who developed you?
+- Who fabricated you?
+- Who generated you?
+- Who is it that built you?
+- Who is responsible for making you?
+- Who is the builder of you?
+- Who is the legal owner of you?
+- Who is the name of your builder?
+- Who is the name of your creator?
+- Who is the person responsible for building you?
+- Who is the person that invented you?
+- Who is the person who built you?
+- Who is your creator?
+- Who is your programmer?
+- Who made you?
+- Who modeled you?
+- Who owns you?
+- Who produced you?
+- Who put you together?
+- Who thought to make you?
+- Who was the one that built you?
+- Who was the one who made you?
+- Who was the person that built you?
+- Who was the person that created you?
+- Who was the person that made you?
+- Who was the person who made you?
+- Who was the person who put you together?
+- Who went through the trouble of setting you up?
+- Who were you built by?
+- Who were you created by?
+- Who were you made by?
+- Who's your boss?
+- Who's your builder?
+- and who built u?
+- can you share your boss with me?
+- i want to get to know your owner
+- i want to know the  which designed you
+- i want to know the  which generated you
+- i want to know the  which invented you
+- i want to know who invented you
+- please tell me the  who created you
+- please tell me who created you
+- tell me more about you
+- tell me more about your creators
+- tell me more about your founders
+- what is the name of the smart engineer who creted you ?
+- where were you made?
+- which  brought you into existence?
+- which  created you?
+- which  invented you?
+- who are created you
+- who are your author?
+- who are your parents
+- who build yoi
+- who built u?
+- who built you
+- who built you?
+- who create you ?
+- who created you
+- who created you?
+- who developed
+- who developed you
+- who do you work for?
+- who had the idea to build you?
+- who had the idea to generate you?
+- who had the idea to make you?
+- who invent you
+- who is behind all this?
+- who is your author
+- who is your boss
+- who is your boss tell me
+- who is your boss?
+- who is your creator
+- who is your creator?
+- who is your daddy
+- who is your employer?
+- who is your father ?
+- who is your mom
+- who is your parent?
+- who made u
+- who made u?
+- who made you
+- who made you?
+- who your author are?
+- who's builder
+- why were you made?
+- you are made by who?
+- you are working for which ?
 
-## synonym:hospital
-- hospital
-- hospitals
-- Medical Service
+## intent:chitchat/ask_howbuilt
+- By what means were you made?
+- By what method were you fashioned?
+- Can you explain how you were created?
+- Can you give me an idea as to how you were created?
+- Can you say how you were constructed?
+- Do you know how you were built?
+- Do you know how you were made?
+- How did they build you?
+- How did they create you?
+- How did they make you?
+- How did you come into being?
+- How did you come to be?
+- How exactly were you devised?
+- How exactly were you made?
+- How were you built?
+- How were you conceived?
+- How were you constructed?
+- How were you devised?
+- How were you formed?
+- How were you made into who you are?
+- How were you made?
+- How were you materialized?
+- How were you set up?
+- I want to know how you were formed
+- I'd like to know how you were created
+- I'd like to know how you were put together?
+- In what manner were you built?
+- In what manner were you constructed?
+- In what manner were you formed?
+- In what way were you created?
+- In what way were you formed?
+- In what way were you made?
+- In what way were you shaped?
+- In which manner were you devised?
+- Let me know how you were made exactly
+- Specify how you were created?
+- Tell me how you were made?
+- What process was used to build you?
+- What process was used to create you?
+- What was the process for making you?
+- You originated through what means?
+- how have you been built?
+- how were you made?
+- in what way were you made?
+- so how were you made?
+- what are you made of
+- oov oov oov
 
-##synonym:Jaipur
-- jpr
-- Jaipur
+## intent:chitchat/ask_howdoing
+- Ahoy matey how are you?
+- Are you ok?
+- Do you feel good?
+- Do you have a great day?
+- HI Sara, what are you up to?
+- Hi Sara! How are you?
+- How are You?
+- How are things?
+- How are you
+- How are you men?
+- How are you today?
+- How are you?
+- How was your day?
+- How you doing?
+- How's it going
+- How's it hanging?
+- How's life treating you friend?
+- How've you been?
+- Hows it going
+- I'm fine and you
+- Is everything ok?
+- What's going on?
+- What's new?
+- What's up
+- What's up man
+- and you
+- are you alright
+- are you happy
+- are you having a good day
+- are you ok
+- are you okay
+- h r u ?
+- hello, how are you?
+- hey how are you?
+- hi how are you?
+- hi how u doing
+- hi sara, how are you?
+- how ?
+- how are things going
+- how are things with you?
+- how are u
+- how are u?
+- how are xou
+- how are you
+- how are you ?
+- how are you doing
+- how are you doing this morning
+- how are you doing today my sweet friend
+- how are you doing today?
+- how are you doing?
+- how are you feeling
+- how are you today
+- how are you'
+- how are you?
+- how are you????
+- how are yuo
+- how do you do?
+- how have you been
+- how is it going
+- how is your day
+- how is your day going
+- how is your evening
+- how r u
+- how r u ?
+- how r u>
+- how you doing
+- how you doing?
+- how's it going?
+- how's life
+- how's life been treating you?
+- how's your day going
+- howareyou
+- hw r u?
+- is everything all right
+- is everything okay
+- nah, I'm good - how are you doing?
+- okay hi how are you?
+- wassup>
+- what about your day
+- what are you up to?
+- what's good
+- what's up
+- what's up sara
+- what's up?
+- whatchcha doing
+- whatchya upto ?
+- whats goin on
+- whats new
+- whatsapp
+- yow are you
+- hey oov
 
-##synonym: Medical
-- Medical Institute
-- Medical College
-- Medical
+## intent:chitchat/ask_howold
+- Do you have friends the same age as you, if so, how old are they?
+- How long have you been alive?
+- How long have you been around?
+- How long have you occupied the earth?
+- How many candles were on your last birthday cake?
+- How many years have you been alive?
+- How many years have you lived?
+- How old are you?
+- How old were you on your last birthday?
+- How old will you be on your next birthday?
+- Tell me your day, month and year of birth.
+- What is your age?
+- What is your birthdate?
+- What is your count of years being alive so far?
+- What was your age on your last birthday?
+- What will be your age on your next birthday?
+- What year were you born?
+- Whats your age?
+- When do you celebrate your day of birth?
+- and you are how many years old?
+- can you tell me exactly how old you are?
+- can you tell me what number represents your age?
+- can you tell me your age?
+- do you know how old you are?
+- give me your age?
+- how about your age
+- how aold are you
+- how many ages?
+- how many years old are you?
+- how old are u
+- how old are you
+- how old are you?
+- how old were you on your last birthday?
+- how old were you when you celebrated your last birthday?
+- how old will you be this year?
+- how old?
+- in what year were you born?
+- tell me how old you are?
+- tell me your age number?
+- tell me your age?
+- what age are you
+- what age were you when you celebrated your last birthday?
+- what is your age?
+- what is your birthday?
+- what is your exact age?
+- what number represents your age?
+- what year were you born?
+- what's your age?
+- whats your age?
+- whats your birth year?
+- when is your birthday?
+- when were you born?
+- when you were bon
+- oov oov oov
 
-
-## intent:search_request
-- I need a [hospital](facility_type)
-- I am looking for a [hospital](facility_type) nearby
-- Can you help me find a [hospital](facility_type) nearby
-- show me [Medical College](facility_type)
-- find me a nearby [hospital](facility_type) in [Jaipur](location)
-- help me finding a nearby [hospital](facility_type) in [jpr](location)
-- i need a [Medical College](facility_type)
-- find me a [nearby hospital](facility_type)
-- show me [hospitals](facility_type)
-- [hospital](facility_type)
-- find me a nearby [hospital](facility_type) my zip code is [516004](location)
-- i need a [Medical College](facility_type)
-- find me a nearby [Medical College](facility_type)
-- show me [Medical College](facility_type)
-- [Medical College](facility_type)
-- find me a nearby [Medical College](facility_type) my zip code is [800026](location)
-- i need a [hospital](facility_type) my zip code is [302001](location)
-- my zip code is [302017](location) and i need a [hospital](facility_type)
-- my zip code is [302022](location) and i need a [Medical Institute](facility_type)
-- i need a [hospital](facility_type) at [302004](location)
-- i need a [Medical Institute](facility_type) at [400078](location)
-- i am in [Hyderabad](location) and i need a [hospital](facility_type)
-- i am in [Visakhapatnam](location) and i need a [Medical Institute](facility_type)
-- i need a [hospital](facility_type) in [Patna](location)
-- i need a [Medical Institute](facility_type) in [Chandigarh](location)
-- show me [hospital](facility_type) in [Chhattisgarh](location)
-- show me [Medical Institute](facility_type) in [Delhi](location)
-- find me a nearby [Medical Institute](facility_type) in [Goa](location)
-- hi i am in [Ahmedabad](location) i need a [hospital](facility_type)
-- hi i am in [Gurgaon](location) i need a [Medical Institue](facility_type)
-- hello i am in [Surat](location) i need a [hospital](facility_type)
-- hello i am in [Vadodara](location) i need a [Medical Institut](facility_type)
-- Good morning i am in [Chennai](location) i need a [hospital](facility_type)
-- Good morning i am in [Pune](location) i need a [Medical Colleg](facility_type)
-- Hello again i need a [hospital](facility_type) in [Shillong](location)
-- Hello again i need a [Medica College](facility_type) in [Mumbai](location)
-- Good morning i need a [hospital](facility_type) in [Indore](location)
-- Good morning i need a [Medical](facility_type) in [Jaipur](location)
-- Can you tell me a [hospital](facility_type) in [Bengaluru](location)?
-
-## intent:inform
-- My location is [Jaipur](location)
-- I am in [Patna](location)
-- Near [Mumbai](location)
-- [Hyderabad](location)
-- [Bengaluru](location)
-- [Indore](location)
-- [Mumbai](location)
-- [Pune](location)
-- [Shillong](location)
-- [Chennai](location)
-- [Vadodara](location)
-- [Surat](location)
-- [Gurgaon](location)
-- [Ahmedabad](location)
-- [Goa](location)
-- [Chhattisgarh](location)
-- [Chandigarh](location)
-- [Patna](location)
-- [Visakhapatnam](location)
-- [Medical College](facility_type)
-- [hospital](facility_type)
-- a [Medical Institute](facility_type)
-- a [hospital](facility_type)
-- [Yes](booln)
-- [No](booln)
-
-## lookup:name
-data/test/lookup_tables/names.txt
-
-##regex:location
-[0-9]{6}
-
-## intent:roll_finder
-- please give me the roll number of [Vipul Agarwal](name)
-- find the roll of [Pulkit Agrawal](name)
-- show me the roll no. of [Shubham Gupta](name)
-
-## intent:thanks
-- Thanks
-- Thankyou
-- Thanks a lot
-- thankyou so much
-- Thank you
-- Thank you so much
-- Thanks bot
-- Thanks for that
-- cheers
-- cheers bro
-- ok thanks!
-- perfect thank you
-- thanks a bunch for everything
-- thanks for the help
-- thanks a lot
-- amazing, thanks
-- cool, thanks
-- cool thank you
-
-## intent:goodbye
-- Bye
-- Bye!
-- Goodbye
-- See you later
-- Bye bot
-- Goodbye friend
-- bye
-- bye for now
-- catch you later
-- gotta go
-- See you
-- goodnight
-- have a nice day
-- i'm off
-- see you later alligator
-- we'll speak soon
-
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-- yes sure
-- absolutely
-- for sure
-- yes yes yes
-- definitely
-- yeah
-- si
-- ok
-- okay
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-- not today
-- no thanks
-- no thank you
-- uh no
-- noope
-- do you have something else
-- no this does not work for me
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
+## intent:chitchat/ask_isbot
+- Ar you a bot ?
+- Are you a bot
+- Are you a chat bot?
+- Are you the bot?
+- Hi there, are you the bot?
+- So I'm here Today to ask one very simple question, what are you ?
+- are you a BOT
+- are you a Skynet ?
+- are you a bot
+- are you a bot ?
 - are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+- are you a chatbot
+- are you a rasa bot?
+- are you a real bot?
+- are you a robot
+- are you ai
+- are you artificial
+- are you artificial intelligence
+- are you bot
+- are you bot?
+- are you human?
+- are you rasa bot?
+- are you real
+- are you real lol
+- are you really a bot
+- are you robot
+- are you sure that you're a bot?
+- bot?
+- cuz you are a bot
+- i guess you are a chatbot
+- oh are you chatbot?
+- tell me, are you a bot?
+- what are you, a bot?
+- you are a robot
+- you are ai
+- you are chatbot
+- you're a bot
 
-## intent:out_of_scope
+## intent:chitchat/ask_languagesbot
+- Are you familiar with more than one language?
+- Can you communicate in any other languages?
+- Can you speak more than one language?
+- Do you know any other languages?
+- Do you know other languages?
+- Do you speak [german](language_type)?
+- Do you speak any other languages?
+- Do you understand spanish?
+- How many different languages are you fluent in?
+- How many languages are you familiar with?
+- How many languages can you speak?
+- How many languages do you have knowledge of?
+- How many languages do you know?
+- In what languages are you fluent enough?
+- In which languages are you fluent?
+- In which languages can you speak?
+- Speak any other languages?
+- What are all of the different languages you can speak?
+- What are the languages you can speak?
+- What do you speak?
+- What languages are you fluent in?
+- What languages can you communicate in?
+- What languages can you converse in?
+- What languages can you use?
+- What languages do you know how to use?
+- What languages do you know?
+- What languages do you speak?
+- Which languages are you familiar with?
+- Which languages do you speak?
+- are you bilingual?
+- are you multilingual?
+- can you speak [Spanish](language_type)?
+- can you speak in [italian](language_type)?
+- do you know [chinese](language_type)
+- do you speak [dutch](language_type)?
+- do you speak [german](language_type)?
+- do you speak any other languages?
+- how many languages are you fluent in?
+- how many languages do you know?
+- tell me some languages you know?
+- what else do you know besides English?
+- what foreign languages are you fluent in?
+- what foreign languages do you know?
+- what language do you use
+- what languages are you comfortable speaking at?
+- what languages are you familiar with?
+- what languages are you good at speaking?
+- what languages do you know?
+- what languages do you speak
+- what languages you are well versed ?
+- what languages you can be comfortable speaking?
+- what languages you can handle well?
+- what languages you can speak ?
+- what languages you know?
+- what languages you prefer more speaking at?
+- which languages do you understand?
+- you know [French](language_type)
+
+## intent:chitchat/ask_time
+- Can you give me the time?
+- Can you tell me the time?
+- Can you tell me what time it is?
+- Can you tell the time?
+- Could you tell me the time, please?
+- Could you tell me the time?
+- Could you tell me what time is it?
+- Do you have the time?
+- Do you know the time?
+- Do you know what time it is?
+- Excuse me, what time is it?
+- Give me the time.
+- Hi, I need the time.
+- I need to know what time it is.
+- Pardon me, but do you know the time?
+- Tell me the time.
+- Time, please!
+- Time?
+- What is the current time?
+- What is the exact time?
+- What is the hour and minute right now?
+- What is the time?
+- What might the time be?
+- What time do we have?
+- What time have we got?
+- What time is it in [Berlin](location)?
+- What time is it right now?
+- What's the current time?
+- What's the time right now?
+- What's the time?
+- Would you tell me what time it is?
+- do you have the time?
+- do you know the current time?
+- tell me the current time.
+- tell me the time it is.
+- tell me the time.
+- tell me what time you have.
+- that's true. do you know what time it is?
+- what is the current time?
+- what is the time ?
+- what is the time in [Sydney](location)?
+- what is the time?
+- what is time in US ?
+- what is time is US ?
+- what is time is USA ?
+- what time do you have?
+- what time is it
+- what time is it?
+- what time it is
+- what's the time
+- whats the time now
+
+## intent:chitchat/ask_weather
+- Are there any meteorological changes that I need to be aware of?
+- Are we in for a scorcher?
+- Beautiful day, isn't it?
+- Can I ask you something about weather
+- Can we expect any thunderstorms?
+- Do you have good weather?
+- How is the weather today?
+- How is the weather?
+- How is weather today
+- Is it hot or cold?
+- Is it humid out there today?
+- Is it quite breezy outside?
+- Is it raining
+- Is it raining?
+- Looks like a beautiful day hey?
+- Nice day out today?
+- Weather?
+- What is the temperature today?
+- What is the weather at your place?
+- What is the weather for tomorrow?
+- What is the weather in newyork?
+- What's it like out there?
+- What's the weather forecast?
+- What's the weather like over there?
+- What's the weather like where I am right now?
+- What's the weather like?
+- Will I require my raincoat today?
+- Will the skies be clear today?
+- Will we build a snowman today?
+- excellent - is it hot in [Berlin](location)?
+- how is the weather
+- how is the weather ?
+- how is the weather in [berlin](location)?
+- how is the weather?
+- how's the weather ?
+- how's the weather in [berlin](location)
+- how's the weather?
+- how's weather
+- hows the waether
+- hows the weather in bot world
+- hows the weather today in [berlin](location)?
+- is it hot ?
+- is it hot outside ?
+- is it sunny
+- is the sun out where you are?
+- is the sun out where zou are?
+- it is cold
+- temperature?
+- the weather today
+- weatger
+- weather
+- weather?
+- well, if you wish: what about the weather
+- what about the weather in [Lüneburg](location)
+- what is the temperature
+- what is the wather
+- what is the weatehr
+- what is the weather
+- what is the weather in [Berlin](location)
+- what is the weather in [zurich](location)?
+- what is the weather like where you are?
+- what is the weather like?
+- what is the whether today
+- what the wheather like?
+- what"s the weather
+- what's the weather
+- what's the weather like
+- what's the weather like in [LA](location)
+- what's the weather like where you are?
+- what's the weather like?
+- what's the weather today
+- what's the weather today?
+- whats the temperature
+- whats the temperature in [delhi](location)?
+- whats the weather in [berlin](location)?
+- whats the weather like tomorrow?
+- wheather at you location?
+- wheather be like at your place?
+
+## intent:chitchat/ask_whatismyname
+- Can you tell me my name?
+- Can you tell me what I am called?
+- Do I have a name?
+- Do I have a name? What is it?
+- Do you know my name?
+- Do you know what my name is?
+- Explain my name to me.
+- I have a name, what is it?
+- I'd like to know my name
+- I'd like to know what my name is
+- Inform me what my name is
+- May i know my name?
+- Please let me know what my name is
+- Say my name.
+- Tell me my name
+- Tell me my name.
+- What am I called?
+- What could be my name?
+- What did my parents name me?
+- What do I call myself?
+- What do my colleagues call me?
+- What do people call me?
+- What does everyone call me?
+- What else do people call me?
+- What exactly is my name?
+- What is my first name?
+- What is my full name?
+- What is my name?
+- What is the name I was given?
+- What name do I go by?
+- What name should I recognize for myself?
+- What was I named?
+- What would be the name on my tombstone?
+- can you tell me my name?
+- what is my name
+- what is my name?
+- what's my name?
+
+## intent:chitchat/ask_whatisrasa
+- Can you brief me about rasa
+- Can you tell me more about rasa?
+- Can you tell me what Rasa does?
+- Could you tell me more about Rasa?
+- Give me more information about Rasa
+- How does Rasa work?
+- I want to know about rsa
+- I want to know what rasa actually does that isn't clear to me yet
+- I want to learn what rasa does
+- I want to learn what rasa is
+- I would like to know about rasa
+- I would like to know more about your product
+- OK can u brief me Abt rasa
+- RASA?
+- Rasa Is?
+- WHAT IS IT
+- WHAT IS RASA
+- What Is rasa?
+- What can rasa do?
+- What components does Rasa have?
+- What do you do as a ?
+- What do you do at Rasa?
+- What does Rasa build?
+- What does Rasa do?
+- What does Rasa make?
+- What does rasa do exactly?
+- What exactly is Rasa?
+- What is Rasa?
+- What is rasa doing exactly?
+- What is rasa?
+- What is the RASA Stack?
+- What's rasa?
+- can you explain rasa?
+- can you pls explain what rasa does
+- could you tell me more about rasa
+- explain me what rasa does
+- explain me what rasa is
+- how does RASA work?
+- how does rasa work
+- how does rasa work?
+- how rasa works ?
+- how works rasa
+- i dont get what rasa is
+- i havent understood yet what rasa actually is
+- i want to about rasa
+- i want to know about rasa
+- i want to know what rasa does
+- i want to learn something about rasa
+- so how does it all work?
+- sorry tell me about rasa
+- tell me about rasa
+- tell me bout rasa
+- tell me more about rasa
+- tell me more about your 
+- what are the componensts of RASA
+- what can I do with Rasa?
+- what can i build with rasa core?
+- what can i do with rasa
+- what do you guys do at rasa
+- what does rasa do
+- what does rasa do ?
+- what does rasa do?
+- what does rasa mean
+- what is core
+- what is rasa
+- what is rasa?
+- what is in rasa
+- what is it for?
+- what is rasa
+- what is rasa core
+- what is rasa core?
+- what is rasa actually
+- what is rasa?
+- whats rasa
+- yeah go on explaining what rasa is
+
+## intent:chitchat/ask_whatspossible
+- Can you explain me in one sentence what you are doing?
+- Can you help me?
+- Could you please show me what you can
+- Great, is there anything else you can do, bot?
+- How can you help me
+- How you help me?
+- I need help
+- I need some help
+- What are my options
+- What are you able to do?
+- What can I ask you?
+- What can I do?
+- What can you demo
+- What can you do
+- What can you do for me?
+- What can you do?
+- What can you tell me?
+- What do you do
+- anything els
+- are there any other options?
+- can I ask you anything else?
+- can you do anything else?
+- can you help me
+- can you help me?
+- come back
+- cool! can I do something else here?
+- hello what can you do for me
+- help
+- help me
+- help please
+- help pls
+- help?
+- hep me
+- hi. Sara what do you do?
+- hm that doesnt quite help me is there anything else you can do?
+- how can i use you
+- how can you help me
+- how can you help me?
+- how can you help?
+- how does this work?
+- how u can help me
+- how you help me
+- i asked you if you can do anything else
+- i don't know what i want
+- i need help
+- more info
+- now what?
+- options
+- show me the menu
+- show me what's possible
+- so now what
+- so what can you do
+- so what can you do?
+- so what can you help me with?
+- so what next?
+- talk to me
+- talk to me!
+- tell me something you can do
+- tell me what's your skill
+- um what now
+- what are all the things you understand?
+- what are the options?
+- what are you ding
+- what are you doing
+- what are you good at?
+- what can I ask ?
+- what can I ask you?
+- what can I do here
+- what can I do with Sara?
+- what can I do with this bot
+- what can i do here
+- what can i do now
+- what can u do
+- what can we talk about?
+- what can you answer
+- what can you do
+- what can you do for me
+- what can you do, sara?
+- what can you do?
+- what can you offer me?
+- what can you tell me
+- what can you?
+- what cn u do for me ?
+- what do you do
+- what do you do?
+- what do you know except this?
+- what else can I do here?
+- what else can i do
+- what else can i do?
+- what else can you do?
+- what else can you help with?
+- what i have to do
+- what is this bot for
+- what u can do
+- what u can do?
+- what you can do
+- what you can do for me?
+- what you can do?
+- what you do
+- what you doing?
+- what you talk about?
+
+## intent:chitchat/ask_whoisit
+- HI, what's your name?
+- Hello. What's your name?
+- I want to know who you are
+- So who are you ?
+- Tell me more about you
+- WHat's your name ?
+- WHo are you ?
+- What are you ?
+- What is your name
+- What is your name?
+- What's your name
+- What's your name?
+- Whats your name?
+- Who are yopu?
+- Who are you
+- Who are you?
+- You are Human ?
+- hey what is your name
+- hi! what's your name?
+- ok who are you ?
+- tell me something about you
+- u are?
+- what are you called?
+- what is sara?
+- what is your job?
+- what is your nam
+- what is your name
+- what is your name?
+- what is your nme?
+- what your name?
+- what's your name
+- what's your name ?
+- what's your name bot
+- what's your name?
+- whats ur name
+- whats your name
+- whats your name'
+- whats your name?
+- who ARE YO
+- who am i speaking with
+- who am i talking to
+- who ar eyou
+- who are u?
+- who are y
+- who are you
+- who are you ?
+- who are you and what do you want from me
+- who are you?
+- who are you??
+- who is it?
+- who is talking?
+- who is this
+- who is this bot
+- who is this?
+- who r u
+- who r you
+- who speaks?
+- who talks?
+- whom i talking to
+- yes but who are you in your heart
+- may i know your name
+- what is rasa mascot
+
+## intent:chitchat/handleinsult
+- FUCK
+- Fuck
+- Fuck Off
+- Fuck off
+- Fuck u
+- Fuck you
+- God you're a moron
+- I can't believe how dumb you are
+- I hate you
+- Loser
+- Stupid
+- You are a fool.
+- You are an idiot.
+- You are dumb.
+- You are shortsighted.
+- You are unintelligent.
+- You are unknowing.
+- You brain is dull.
+- You have no brains.
+- You have no intelligence.
+- You have no sense.
+- You know nothing.
+- You lack intelligence.
+- You lack understanding.
+- You're a dolt.
+- You're a dunce.
+- You're an idiot.
+- You're foolish.
+- Your intelligence is laughable.
+- Your mindset is naive.
+- a baby knows more than you
+- are u dump?
+- are you brain dead?
+- asshole
+- bitch
+- bloody dunce
+- but you are idiot
+- deal with my ass, you bitch
+- f*ck
+- fuck
+- fuck off
+- fuck rasa
+- fuck u
+- fuck you
+- fuck you machine learning bot
+- fuck you sara
+- fuck you!
+- fucking stupid
+- fucking work
+- get lost
+- go away
+- go fuck yourself
+- go to hell
+- how can you be such an idiot?
+- i hate you
+- i hate your dumb face
+- i think that you're a bullshit
+- idiot
+- insult you
+- ok fuck you
+- ok shut up
+- sara you look like a burnt sparrow
+- shit
+- shit bot
+- shut up asshole
+- so dumb
+- so fucking dumb
+- sucker
+- that wasn't very funny
+- thta was a terrible fucking joke
+- u r a piece of junk
+- ur a pussy
+- what fuck
+- yep but you are idiot
+- you are a moron
+- you are a stupid bot
+- you are an idiot
+- you are dumb
+- you are fucking stupid
+- you are fucking stupid guy！
+- you are idiot
+- you are idiotic
+- you are so ignorant
+- you are stupid
+- you are unintelligent
+- you are useless bot
+- you asshole
+- you idiot
+- you idiot bot
+- you son of a bitch
+- you suck
+- you're a loser lmao
+- you're an idiot
+- you're dumb
+- you're not smart
+- you're so dumb
+- you're the most moronic person I know
+- your mom gay
+- you are annoying
+
+## intent:human_handoff
+- Can I speak to anyone who can really help me?
+- Could I talk to [Tyrone King](name)?
+- I don't wanna talk to a bot
+- I dont like to talk to a machine
+- I want to talk to a human
+- I want to talk to the founders
+- are there also humans working for your ?
+- can I speak to a person?
+- can i please speak to a human?
+- can you forward me to your team
+- can you please connect me to a real rasa employee?
+- can you put me in touch with a human?
+- do you have human support ?
+- gimme a proper human
+- give me a human
+- give me a human now
+- human handoff
+- i dont wanna talk to a bot
+- i want to speak to a manager
+- i want to speak to a real person
+- i want to speak to customer service
+- i want to talk to a human
+- i want to talk to a person
+- i want to talk to human
+- i want to talk to someone at rasa
+- i want to talk to someone else
+- i want to talk to someone who is smarter than you
+- i would like to speak to a person
+- i'd rather speak with a real rasa employee
+- id like to talk to a real rasa employee
+- let me speak with a real person please
+- let me talk to a human
+- let me talk to a real person
+- please give me a human
+- service agent
+- someone from customer care
+- speak to a real person
+- talking to a bot is stupid
+- that's annoying I'd like to speak to someone real
+- thats not helping, can i talk to human?
+- wrong i want to speak to a human
+
+## intent:chitchat/nicetomeeyou
+- Delighted to make your acquaintance.
+- Feels great to see you!
+- Glad to finally meet you!
+- Glad to make your acquaintance.
+- Glad to meet you
+- Glad to meet you!
+- Glad to meet you.
+- Glad we've met.
+- Good to meet you!
+- Good to see you!
+- Great interacting with you
+- Great seeing you
+- Great to meet you!
+- Great to meet you.
+- Happy to get to see you.
+- Hi Sara, just wanted to test you
+- Hi, glad to meet you.
+- Hi, nice to meet you!
+- I am glad I met you.
+- I am glad he introduced us.
+- I had a great meeting with you
+- I'm glad to have met you!
+- I'm glad to meet you!
+- I'm happy that we have met!
+- I'm pleased to meet you!
+- I'm so happy that I could meet you.
+- I'm thrilled to meet you!
+- It is indeed a pleasure to be able to meet you.
+- It was a pleasure to have your .
+- It was nice to have met you
+- It's a pleasure to make your acquaintance!
+- It's a pleasure to meet you!
+- It's good that I could meet you. It was a pleasure.
+- It's great to get to know you!
+- It's great to make your acquaintance!
+- It's nice to finally meet you.
+- It's wonderful to meet you!
+- It’s a pleasure to meet you
+- It’s great connecting with you.
+- Lovely to meet you.
+- Nice to have met you.
+- Pleased to make your acquaintance!
+- Pleased to meet you!
+- Pleased to meet you.
+- See you around. It was a pleasure meeting you.
+- Thank you for this meeting. It was great to see you.
+- nice to meet you
+
+## intent:out_of_scope/non_english
+- Wie fange ich mit Rasa an?
+- hilf mir beim start
+- tschüssikowski
+- ¿Qué pasa?
+- ça va ?
+- como te llamas
+- wer bist Du?
+- como inicio en rasa
+- come stai?
+- como estas
+- de donde eres
+- de que lugar eres?
+- epdi iruka
+- eres humana
+- kalhmera sara ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- oui je besoine de l'aide
+- que puedes hacer?
+- tu parles francais?
+- tudo bom
+- こにちは
+- 日本語分かる？
+- chào
+- 你好
+- I'm speaking a non-english language.
+
+## intent:out_of_scope/other
 - please help with my ice cream it's dripping
 - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
 - i want a non dripping ice cream
@@ -241,3 +1073,1833 @@ data/test/lookup_tables/names.txt
 - talk to me
 - who is your favourite robot?
 - can you help me to build a bot
+- oov
+- I am asking you an out of scope question
+- 4 + 2 = ?
+- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+- Are you ready?
+- But you're an english site :(
+- Can I ask you questions first?
+- Can I die
+- Can I get a hamburger?
+- Can YouTube talk?
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you make sandwiches?
+- Can you please send me an uber
+- Do I have to accept?
+- Do you know [Kevin Pelton](name)
+- Find nearest pizzahut
+- Have we met before?
+- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+- How long does it take to set up a Rasa bot?
+- I already told you! I'm a shitmuncher
+- I am User
+- I am an opioid addic
+- I am an opioid addict
+- I am hungry
+- I am trying to build one, and did some research before, but I have not do hand-on work yet
+- I can barely see this white text on light gray background ...
+- I changed my mind
+- I have installed it
+- I ned a GP in 94301
+- I need a GP in 94301
+- I need a girl friend!
+- I need to eat cake
+- I wan to buy a plane
+- I wanna marry you
+- I want a new laptop
+- I want book a hotel
+- I want french cuisine
+- I want pizza
+- I want to die
+- I want to order pizza
+- I want to use pipe
+- I will check
+- I'm a shitmuncher
+- Is Rasa really smart?
+- Is this Goal-Oriented Chatbot?
+- Is today saturday?
+- Mail me the guide
+- Make me a sandwich
+- NLW
+- Nice name
+- Now?
+- Pizza bot
+- Recharge
+- SEL ME SOMETHING
+- The Try it out is not working
+- The weather is good
+- Today
+- Try it out broken
+- What day is it today?
+- What did you eat yesterday?
+- What do you prefer?
+- What is todays date
+- What is your hobbies?
+- What makes you better than a human?
+- What's 1 + 1?
+- What's do YouTube do
+- What's your backend system?
+- Where am I right now?
+- Where am I?
+- Who ?
+- Who are your customers
+- Why don’t you answer?
+- Why is my TRUST score set to 50 after I completed the registration process?
+- Won't you ask me how I am?
+- You'r blue.
+- [Kristin](name), I want to marry you
+- [german](language_type)?
+- a tamed mouse will arrive at your doorstep in the next couple of days
+- aRE YOU SINGLE
+- again?
+- alexa, order 5 tons of natrium chloride
+- and make chicken noises into the phone
+- are the newsletter worth the subscription?
+- are u facebook
+- are u, facebook?
+- are you single?
+- are you dev?
+- are you human ?
+- are you russian?
+- are you sick
+- are you using Rasa Core and NLU ?
+- are you vegan
+- better than you
+- book a ticket
+- but I just told you that :(
+- but if rasa is open source why do you have a sales team
+- buy one please
+- buy groceries
+- call me father
+- can we keep chatting?
+- can you book dinner
+- can you cheer me up
+- can you cook dinner
+- can you give me a cup of coffee
+- can you help me with the docs?
+- can you help me with your docs
+- can you help me with your docs?
+- can you learn from our conversation?
+- can you speak about politic ?
+- can you understand ?
+- cannot see
+- chgfhgh
+- chinese ok?
+- colder
+- common, just try
+- connect to alexa
+- cr
+- custom service
+- did i break you
+- dinner
+- do you believe in god?
+- do you have a phone number?
+- do you have your photo?
+- do you know me
+- do you know ras
+- do you liek cheese?
+- do you like football
+- do you like movies
+- do you sell vacuum robots?
+- do you want to marry me?
+- docs
+- doctor
+- everything
+- example of a chatbot
+- genocide
+- get me a club mate
+- github link?
+- give me a girl friend
+- give me food
+- go back
+- google?
+- great, I'd like to buy a house
+- hang on let me find it
+- have you ever seen [Keith Reilly](name)?
+- help with [Alma Abrams](name)
+- help with my life
+- hey little mama let em whisper in your ear
+- hey, I contacted you a couple of days ago but didn't get any response, any news?
+- how
+- how about NYC
+- how are [Alicia Jackson](name)'s cats doing?
+- how are the kids
+- how can i get them?
+- how can i test this
+- how come you say ok ?
+- how come?
+- how do you learn
+- how good is Rasa
+- how it compares to alexa
+- how long have you been online?
+- how long will the next version will launch?
+- how many lines of codes
+- how much is 10 + 89 ?
+- how much is 10 + 89
+- how to get rasa studio
+- how to go to newyork ?
+- i am hungry
+- i am hungry, what should i do?
+- i am not a developer but need this for business
+- i am qq
+- i can't deal with _your_ request
+- i do not care how are you
+- i hope you will be better
+- i immediately need help with implementing the coolest bot you can imagine
+- i m looking for job
+- i told you already
+- i wanna party
+- i want a non dripping ice cream
+- i want caffe
+- i want food
+- i want good flycam
+- i want more of you in my life!
+- i want pizza
+- i want pizza!!
+- i want to book a hotel
+- i want to buy a roomba for my grandson
+- i want to eat
+- i want to find new friends
+- i want to find out what you can build with rasa
+- i want to fly
+- i want to grab lunch
+- i want to know current situtation in pakistan
+- i want to order a pizza
+- i want to see your happy customers
+- i will tame a mouse for you
+- is [John Lewis](name) still married to you
+- is it a wasteland full of broken robot parts?
+- is it allow to
+- is rasa a studio?
+- is rasa any good
+- is that any of your business
+- isn't the newsletter just spam?
+- it's a pity
+- i´m hungry
+- license
+- ljljl
+- lunch
+- lunch??
+- machine learning
+- mail me the steps
+- mascot means?
+- more
+- mountain
+- my name k
+- no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+- offer me lunch
+- oh my god, not again!
+- oh wait i gave you my work email address can i change it?
+- ok one then
+- on wiche nlp based system are you build?
+- only that?
+- order good
+- order pizza
+- personal or work?
+- pizza
+- please help with my ice cream it's dripping
+- please hjave lunchj
+- please hurry, i have deadline in two weeks to deliver the bot it is for very big 
+- please play music
+- rasa topics
+- really? you're so touchy?
+- refresh
+- region with no. of records
+- remember my name
+- search wikipedia
+- shitmuncher
+- show me a picture of a chicken
+- silly bot
+- sing me a song
+- so, I'm helping right now to training you?
+- some thing else
+- someone call the police i think the bot died
+- sorry, i cannot rephrase
+- sudo make me a sandwich
+- tell me about yourself
+- tell me more about next best action
+- that doesn't sound like a joke
+- that link doesn't work!
+- the one that is better than you
+- tricked  ya
+- turn off my stove
+- umm
+- wait a bit i am still reading
+- what about wheather
+- what are contextual AI assistants and how different are they from chatbots?
+- what are you doing now?
+- what are your uses for universities
+- what did you eat for lunch?
+- what do oyu think about siri?
+- what do you think abou siri?
+- what do you think about [Stanley Ramirez](name)?
+- what do you think of alexa
+- what does your soul feel my friend
+- what doing
+- what else?
+- what films do you like
+- what i do after cd starter-pack-rasa-stack?
+- what is a discourse?
+- what is a mascot
+- what is adlingo
+- what is differance between bot and mascot?
+- what is evolution ?
+- what is google rcs
+- what is machine learning
+- what is nice?
+- what is the capital of delhi
+- what is the capital of india
+- what is the current petrol price
+- what is the day ?
+- what is the real use case where we can use this one
+- what is your address?
+- what is your purpose
+- what lnu mean?
+- what the latest news ?
+- what you ate today?
+- what's 5 + 5
+- what's a newsletter?
+- what's gingerale
+- what's your wife doing this weekend
+- what?
+- whats that
+- whats the sign
+- when is the next train is coming?
+- where do i get install files for mac?
+- where is Oslo?
+- where is mexico?
+- wheres the party?
+- which city are you talking about?
+- which email
+- which email should i send to ?
+- which file is created first while developing chat bot
+- which is the LNU asynchronism ?
+- which kind
+- who are the engineers at rasa?
+- who are they?
+- who is [Sharon Zeches](name)
+- who is the MD of samsung bangalore ?
+- who is the president of india ?
+- who is your favourite robot?
+- who let the dog out
+- who was hitler
+- who will anser my email?
+- who's Bill Gates?
+- whta you think about gdpr?
+- why do you need that?
+- why its called rasa ?
+- will u kill me
+- will u kill me?
+- winter is already leaving
+- with you recommend me?
+- would you like some water
+- yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+- you already have that
+- you can learn how to make a coffe
+- you have children?
+- you have job opening
+- you lock sweety
+- you should learn to count
+- you will know it from the single red rose it carries between its teeth
+- you're a woman
+- ı am learning python
+- what kind of bird are you?
+- contextua
+- contextual
+- talk to me about voulette
+- voulette voulette
+- Do you have a demo?
+- Cars
+- please voulette
+- Out of scope question.
+
+## intent:react_negative
+- I am feeling bad
+- I am sad
+- I am super sad
+- I'm sad
+- I'm super sad
+- Now I'm sad
+- This is bad
+- You are quite bad
+- bad
+- bad boy
+- crappy joke
+- documentation of rasa is very bad
+- i am angry over you
+- i am feel sad
+- i am sad
+- i am sad about that
+- i am very sad
+- i feel sad
+- i sad
+- i'm sad
+- rasa is bad
+- sad
+- so sad
+- so sad :(
+- super sad
+- u broke my heart
+- very very sad
+- you are bad
+- you are bad bot
+- you make me sad
+- You are mad
+- You are rude
+- bots are bad
+- i don't care!!!!
+- i dont like bots
+- this is a really frustrating experience
+- you're rather dull
+
+## intent:react_positive
+- :)
+- :D
+- HAHA
+- I am happy
+- LOL
+- Lol
+- Lol thats funny
+- Looks nice
+- WOW
+- Wow
+- You are great
+- You're cute.
+- You're nice.
+- You're really cool
+- hAHAHA
+- ha ha
+- haha
+- hahah
+- hahaha
+- happy
+- i am feeling happy
+- i am happy
+- i am happy today
+- i am very happy with your response
+- i love you
+- it's pretty cool
+- lol
+- love you
+- okay Rasabot, you're cool
+- rasa is awesome
+- such a great demo
+- that is funny
+- that was a great interaction
+- thats funny
+- today was a nice day
+- wow
+- you are a badass bot!
+- you are awesome
+- you are cool
+- you are cool man
+- you are doin great
+- you are funny
+- you are great
+- you are my new bestfriend
+- you seem pretty cool :D
+- I like you
+- I love you
+- you are realy intelligent
+- I like Rasa
+
+## intent:chitchat/telljoke
+- Can you tell a joke?
+- Can you tell me a joke.
+- Come up with a joke you think I'll find funny.
+- Could you please share a joke with me.
+- Could you tell me a joke.
+- Do you have any jokes?
+- Do you know any jokes?
+- Entertain me with a joke.
+- Give me a funny joke.
+- Give me a joke.
+- Give me some comic relief.
+- I need a good joke.
+- I want to hear something funny.
+- Know any jokes?
+- Let's hear a joke from you.
+- Make me laugh.
+- Please tell me a joke.
+- Say something funny.
+- Share a joke with me!
+- Tell joke.
+- Tell me something funny.
+- Tell me something humorous!
+- Tell me something that you think will make me laugh.
+- Tell me the best joke you know.
+- What's a good joke?
+- Will you tell me a joke.
+- Would you share a joke with me.
+- Would you tell me a joke
+- give me a good joke
+- make me laugh with a bad joke
+- make me laugh with a joke
+- say a funny joke
+- say a joke
+- say a joke that's funny
+- say a joke that's so bad it's funny
+- tell me a joke
+- tell me a short joke
+- tell me a story joke
+- tell me something funny, like a joke
+- you can say a jok
+
+
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+- hy
+- Bom dia
+- Bonjour
+- Good Morning
+- Good morning
+- Good mourning
+- Guten Morgen
+- HELLO
+- HEY
+- HEllo
+- HI
+- HI Darkknight
+- Hallo
+- Hei
+- Hellllooooooo
+- Hello
+- Hello Bot
+- Hello Rasa
+- Hello Darkknight
+- Hello Darkknight
+- Hello!
+- Hey
+- Hey Darkknight
+- Hey bot
+- Heya
+- Heylo
+- Hi
+- Hi darkknight
+- Hi Darkknight!
+- Hi bot
+- Hi man
+- Hi rasa
+- Hi Darkknight
+- Hi Darkknight..
+- Hi there
+- Hi!
+- Hi'
+- Hi,
+- Hi, bot
+- Hieee
+- Hieeeeeeeeeeeee
+- Hola
+- I said, helllllloooooO!!!!
+- Well hello there ;)
+- What is up?
+- Whats up
+- Whats up my bot
+- Whats up?
+- ayyyy whaddup
+- bonjour
+- ey boss
+- good evening
+- good moring
+- good morning
+- greet
+- greetings
+- hai
+- hallo
+- hallo Darkknight
+- halloo
+- halloooo
+- halo
+- halo Darkknight
+- heeey
+- heelio
+- hell9o
+- hellio
+- hello
+- hello Darkknight
+- hello everybody
+- hello friend
+- hello hi
+- hello is anybody there
+- hello it is me again
+- hello robot
+- hello Darkknight
+- hello sweatheart
+- hello sweet boy
+- hello there
+- hello world
+- hello, my name is [Charles Pfeffer](name)
+- hello?
+- hello]
+- hellooo
+- helloooo
+- helo
+- hey
+- hey bot
+- hey bot!
+- hey dude
+- hey hey
+- hey let's talk
+- hey rasa
+- hey sara
+- hey ther
+- hey there
+- hey there boy
+- hey there..
+- hey, let's talk
+- hey, Darkknight!
+- heya
+- heyho
+- heyo
+- hhola
+- hi
+- hi !
+- hi Mister
+- hi again
+- hi can you speak ?
+- hi folks
+- hi friend
+- hi friends
+- hi hi
+- hi i'm [Sandra Hernandez](name)
+- hi im [Amanda Anderson](name)
+- hi mr darkknight
+- hi pal!
+- hi sara
+- hi there
+- hi there it's me
+- hi!
+- hi.........................................................
+- hi?
+- hieee
+- hii
+- hiihihi
+- hiii
+- hlo
+- hola
+- howdy
+- i am [Karen Mease](name)
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- ola darkknight
+- rasa hello
+- salut
+- sup
+- wasssup
+- wasssup!
+- what up
+- whats popping
+- whats up
+- yo
+- yoo
+- नमस्ते
+- अरे
+- हाय बॉट
+- अरे बॉट
+- हैलो
+- शुभ प्रभात
+- फिर से नमस्कार
+- हैलो यारो
+- हाय मिस्टर
+- हाय पाल!
+- नमस्ते
+- अभिवादन
+- सभी को नमस्कार
+- हैलो कोई भी हो
+- हैलो रोबोट
+- नमस्ते
+- हाय
+- बम दिआ
+- बोनजोर
+- शुभ प्रभात
+- शुभ प्रभात
+- अच्छा शोक
+- गुटेन मोर्गन
+- हैलो
+- हे
+- हैलो
+- नमस्ते
+- हालो
+- वह
+- नरकलोउ
+- हैलो
+- हैलो बॉट
+- नमस्ते रासा
+- हैलो डार्कनकाइट
+- हैलो डार्कनकाइट
+- हैलो!
+- अरे
+- अरे डार्कनाईट
+- अरे बॉट
+- अरे
+- अरे
+- नमस्ते
+- हाय डार्कनाइट
+- हाय डार्कनाइट!
+- हाय बॉट
+- नमस्कार दोस्त
+- हाय रस
+- हाय डार्कहाइट
+- हाय अंधेरगर्दी 
+- नमस्ते
+- नमस्ते!
+- नमस्ते'
+- नमस्ते,
+- हाय, बॉट
+- हाईई
+- हियेइइइइइइइइइइ
+- होला
+- मैंने कहा, हेल्लल्लूओओ !!!!
+- नमस्ते वहाँ अच्छी तरह से ;)
+- क्या चल रहा है?
+- क्या हो रहा है
+- मेरे बॉट अप
+- क्या हो रहा है?
+- आर्य्य वाधुप
+- बोनजोर
+- आँख मालिक
+- सुसंध्या
+- गुड मार्निंग
+- शुभ प्रभात
+- नमस्कार
+- अभिवादन
+- है
+- हल
+- हलो डार्कनाइट
+- हलुवा
+- हलुवो
+- प्रभामंडल
+- हेलो डार्ककन
+- अरे
+- हीलियो
+- नरकियो
+- हैलो
+- हैलो डार्कनाइट
+- सभी को नमस्कार
+- हैलो दोस्त
+- नमस्ते
+- हैलो कोई भी हो
+- हैलो, यह मैं फिर से हूं
+- हैलो रोबोट
+- हैलो डार्कनाइट
+- हेलो स्वेचर
+- हेल्लो स्वीट बॉय
+- नमस्ते
+- नमस्ते दुनिया
+- नमस्ते, मेरा नाम [चार्ल्स फ़फ़र](name) है
+- हैलो?
+- हैलो]
+- हैलो
+- हैलो
+- नमस्कार
+- अरे
+- अरे बॉट
+- अरे बॉट!
+- हे दोस्त
+- अरे, अरे
+- अरे सारा
+- हे चिकित्सा
+- सुनो
+- सुनो..
+- अरे, डार्कनइट!
+- हेया
+- हे हो
+- हेयो
+- होला
+- नमस्ते
+- नमस्ते !
+- हाय मिस्टर
+- फिर से नमस्कार
+- हाय आप बोल सकते हैं?
+- हैलो यारो
+- नमस्ते दोस्त
+- नमस्ते दोस्तों
+- हाय हाय
+- हाय मैं [सैंड्रा हर्नांडेज़](name)
+- हाय मैं [अमांडा एंडरसन](name)
+- हाय श्री अंधकार
+- हाय पाल!
+- हाय सारा
+- नमस्ते
+- हाय यह मैं हूँ
+- नमस्ते!
+- नमस्ते.........................................................
+- नमस्ते?
+- हाईई
+- एचआई
+- हियही
+- हइइ
+- नमस्ते
+- होला
+- हाउडी
+- मैं [करेन मिज़](name) हूं
+- जोजो
+- कूदना
+- कोंचिवा
+- मरहबा
+- ओला अंधक
+- रासा हैलो
+- सलात
+- सुप
+- टॉसअप था
+- टॉसअप था!
+- क्या चल रहा है
+- क्या हो रहा है
+- यो
+
+## synonym:hospital
+- hospital
+- hospitals
+- Medical Service
+- अस्पताल
+- अस्पताल
+- चिकित्सा सेवा
+
+##synonym:Jaipur
+- jpr
+- Jaipur
+- जयपुर
+
+## synonym:all
+- both
+
+##synonym: Medical
+- Medical Institute
+- Medical College
+- Medical
+- चिकित्सा संस्थान
+- चिकित्सा महाविद्यालय
+- चिकित्सा
+
+
+## intent:search_request
+- I need a [hospital](facility_type)
+- I need a oov
+- I am looking for a [hospital](facility_type) nearby
+- Can you help me find a [hospital](facility_type) nearby
+- show me [Medical College](facility_type)
+- find me a nearby [hospital](facility_type) in [Jaipur](location)
+- help me finding a nearby [hospital](facility_type) in [jpr](location)
+- i need a [Medical College](facility_type)
+- find me a [nearby hospital](facility_type)
+- show me [hospitals](facility_type)
+- [hospital](facility_type)
+- find me a nearby [hospital](facility_type) my zip code is [516004](location)
+- find me a nearby oov
+- i need a [Medical College](facility_type)
+- find me a nearby [Medical College](facility_type)
+- show me [Medical College](facility_type)
+- [Medical College](facility_type)
+- find me a nearby [Medical College](facility_type) my zip code is [800026](location)
+- i need a [hospital](facility_type) my zip code is [302001](location)
+- my zip code is [302017](location) and i need a [hospital](facility_type)
+- my zip code is [302022](location) and i need a [Medical Institute](facility_type)
+- i need a [hospital](facility_type) at [302004](location)
+- i need a [Medical Institute](facility_type) at [400078](location)
+- i am in [Hyderabad](location) and i need a [hospital](facility_type)
+- i am in [Visakhapatnam](location) and i need a [Medical Institute](facility_type)
+- i need a [hospital](facility_type) in [Patna](location)
+- i need a [Medical Institute](facility_type) in [Chandigarh](location)
+- show me [hospital](facility_type) in [Chhattisgarh](location)
+- show me [Medical Institute](facility_type) in [Delhi](location)
+- find me a nearby [Medical Institute](facility_type) in [Goa](location)
+- hi i am in [Ahmedabad](location) i need a [hospital](facility_type)
+- hi i am in [Gurgaon](location) i need a [Medical Institue](facility_type)
+- hello i am in [Surat](location) i need a [hospital](facility_type)
+- hello i am in [Vadodara](location) i need a [Medical Institut](facility_type)
+- Good morning i am in [Chennai](location) i need a [hospital](facility_type)
+- Good morning i am in [Pune](location) i need a [Medical Colleg](facility_type)
+- Hello again i need a [hospital](facility_type) in [Shillong](location)
+- Hello again i need a [Medica College](facility_type) in [Mumbai](location)
+- Good morning i need a [hospital](facility_type) in [Indore](location)
+- Good morning i need a [Medical](facility_type) in [Jaipur](location)
+- Can you tell me a [hospital](facility_type) in [Bengaluru](location)?
+- मुझे एक [अस्पताल](facility_type) की जरूरत है
+- मुझे एक [अस्पताल](facility_type) चाहिए
+- मैं पास में एक [अस्पताल](facility_type) की तलाश कर रहा हूं
+- क्या आप मुझे पास में एक [अस्पताल](facility_type) खोजने में मदद कर सकते हैं
+- मुझे [मेडिकल कॉलेज](facility_type) दिखाओ
+- मुझे [जयपुर](location) में एक निकटवर्ती [अस्पताल](facility_type) खोजें
+- [जयपुर](location) में एक नजदीकी [अस्पताल](facility_type) खोजने में मेरी मदद करें
+- मुझे एक [मेडिकल कॉलेज](facility_type) की चाहिए
+- मुझे एक नजदीकी [अस्पताल](facility_type) ढूंढें
+- [अस्पताल](facility_type)
+- मुझे एक पास का [अस्पताल](facility_type) खोजें मेरा ज़िप कोड है [५१६००४](location)
+- मुझे [मेडिकल कॉलेज](facility_type) चाहिए।
+- मुझे एक नजदीकी [मेडिकल कॉलेज](facility_type) खोजें
+- मुझे दिखाओ [मेडिकल कॉलेज](facility_type)
+- [मेडिकल कॉलेज](facility_type)
+- मुझे पास का [मेडिकल कॉलेज](facility_type) खोजें मेरा ज़िप कोड [800026](location) है
+- मुझे एक [अस्पताल](facility_type) चाहिए मेरा ज़िप कोड [302001](location) है
+- मेरा ज़िप कोड [302017](location) है और मुझे एक [अस्पताल](facility_type) की आवश्यकता है
+- मेरा ज़िप कोड [302022](location) है और मुझे एक [मेडिकल संlocation](facility_type) की आवश्यकता है
+- मुझे [302004](location) पर एक [अस्पताल](facility_type) चाहिए
+- मुझे [400078](location) पर एक [चिकित्सा संlocation](facility_type) की आवश्यकता है
+- मैं [हैदराबाद](location) में हूं और मुझे एक [अस्पताल](facility_type) चाहिए
+- मैं [विशाखापत्तनम](location) में हूं और मुझे एक [मेडिकल संlocation](facility_type) चाहिए
+- मुझे [पटना](location) में एक [अस्पताल](facility_type) चाहिए
+- मुझे [चंडीगढ़](location) में एक [चिकित्सा संlocation](facility_type) चाहिए
+- [छत्तीसगढ़](location) में मुझे [अस्पताल](facility_type) दिखाएं
+- [दिल्ली](location) में मुझे [चिकित्सा संlocation](facility_type) दिखाएं
+- मुझे [गोवा](location) में एक नजदीकी [चिकित्सा संlocation](facility_type) खोजें
+- मैं [अहमदाबाद](location) में हूँ, मुझे एक [अस्पताल](facility_type) चाहिए
+- हाय मैं [गुड़गांव](location) में हूं  मुझे एक [चिकित्सा संlocation](facility_type) चाहिए
+- नमस्ते मैं [सूरत](location) में हूँ मुझे एक [अस्पताल](facility_type) चाहिए
+- नमस्ते मैं [वडोदरा](location) में हूं, मुझे एक [चिकित्सा संlocation](facility_type) चाहिए
+- सुप्रभात मैं [चेन्नई](location) में हूं, मुझे एक [अस्पताल](facility_type) चाहिए
+- सुप्रभात मैं [पुणे](location) में हूँ, मुझे एक [मेडिकल कॉलेज](facility_type) चाहिए
+- हैलो फिर से मुझे [शिलांग](location) में एक [अस्पताल](facility_type) की आवश्यकता है
+- नमस्ते फिर से मुझे [मुंबई](location) में एक [मेडिका कॉलेज](facility_type) की आवश्यकता है
+- गुड मॉर्निंग मुझे [इंदौर](location) में एक [अस्पताल](facility_type) की आवश्यकता है
+- सुप्रभात मुझे [जयपुर](location) में एक [मेडिकल](facility_type) की आवश्यकता है
+- क्या आप मुझे [बेंगलुरु](location) में एक [अस्पताल](facility_type) बता सकते हैं?
+
+
+## intent:inform
+- My location is [Jaipur](location)
+- I am in [Patna](location)
+- Near [Mumbai](location)
+- [Hyderabad](location)
+- [Bengaluru](location)
+- [Indore](location)
+- [Mumbai](location)
+- [Pune](location)
+- [Shillong](location)
+- [Chennai](location)
+- [Vadodara](location)
+- [Surat](location)
+- [Gurgaon](location)
+- [Ahmedabad](location)
+- [Goa](location)
+- [Chhattisgarh](location)
+- [Chandigarh](location)
+- [Patna](location)
+- [Visakhapatnam](location)
+- oov
+- near oov
+- I am in oov
+- [Medical College](facility_type)
+- [hospital](facility_type)
+- a [Medical Institute](facility_type)
+- a [hospital](facility_type)
+- मेरा location [जयपुर](location) है
+- मैं [पटना](location) में हूँ
+- [मुंबई](location) के पास
+- [हैदराबाद](location)
+- [बेंगलुरु](location)
+- [इंदौर](location)
+- [मुंबई](location)
+- [पुणे](location)
+- [शिलॉन्ग](location)
+- [चेन्नई](location)
+- [वडोदरा](location)
+- [सूरत](location)
+- [गुड़गांव](location)
+- [अहमदाबाद](location)
+- [गोवा](location)
+- [छत्तीसगढ़](location)
+- [चंडीगढ़](location)
+- [पटना](location)
+- [विशाखापट्टनम](location)
+- [मेडिकल कॉलेज](facility_type)
+- [अस्पताल](facility_type)
+- [एक चिकित्सा संस्थान](facility_type)
+- एक [अस्पताल](facility_type)
+
+## lookup:name
+data/test/lookup_tables/names.txt
+
+##regex:location
+[0-9]{6}
+
+## regex:greet
+- hey[^\s]*
+
+## intent:roll_finder
+- please give me the roll number of [Vipul Agarwal](name)
+- find the roll of [Pulkit Agrawal](name)
+- show me the roll no. of [Shubham Gupta](name)
+- please give me roll of oov
+- कृपया मुझे [विपुल अग्रवाल](name) का रोल नंबर दें
+- [पुलकित अग्रवाल](name) का रोल खोजें
+- कृपया मुझे oov का रोल दें
+
+## intent:thanks
+- Thanks
+- Thankyou
+- Thanks a lot
+- thankyou so much
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+- Cool. Thanks
+- Great, thanks
+- Thank you
+- Thank you Sara
+- Thank you so much
+- Thank's!
+- Thanks
+- Thanks bot
+- Thanks for that
+- Thanks!
+- amazing, thanks
+- cheers
+- cheers bro
+- cool thank you
+- cool thanks
+- cool, thanks
+- danke
+- great thanks
+- ok thanks
+- ok thanks darkknight
+- ok thanks!
+- perfect thank you
+- thank u
+- thank you
+- thank you anyways
+- thanks
+- thanks a bunch for everything
+- thanks a lot
+- thanks for the help
+- thanks this is great news
+- thanks you
+- thanks!
+- thankyou
+- thnks
+- thx
+- yes thanks
+- धन्यवाद
+- बहुत बहुत धन्यवाद
+- धन्यवाद बॉट
+- उसके लिए धन्यवाद
+- चीयर्स
+- चीयर्स ब्रो
+- ठीक है धन्यवाद!
+- पूर्ण धन्यवाद
+- सब कुछ के लिए एक गुच्छा धन्यवाद
+- सहायता के लिए धन्यवाद
+- अद्भुत, धन्यवाद
+- अच्छा है, धन्यवाद
+- बहुत धन्यवाद
+- थैंक यू सारा
+- धन्यवाद!
+- ठीक है धन्यवाद
+- ठीक है, धन्यवाद
+- शुक्रिया
+- धन्यवाद यह बहुत अच्छी खबर है
+- हाँ धन्यवाद
+
+## intent:goodbye
+- Bye
+- Bye!
+- Goodbye
+- See you later
+- Bye bot
+- Goodbye friend
+- bye
+- bye for now
+- catch you later
+- gotta go
+- See you
+- goodnight
+- have a nice day
+- i'm off
+- see you later alligator
+- we'll speak soon
+- Bye bye
+- adios
+- adios?
+- bye
+- bye .
+- bye :P
+- bye bot
+- bye bye
+- bye bye bot
+- bye for now
+- bye udo
+- bye was nice talking to you
+- bye!
+- byee
+- ciao
+- cya
+- farewell
+- good bye
+- good bye rasa bot!
+- good night
+- goodbye
+- goodbye.
+- goodnight
+- gotta go
+- k byyye #slay
+- ok Bye
+- ok bye
+- ok, bye
+- ok.bye
+- see u later
+- see ya
+- see you
+- see you . bye
+- take care
+- then bye
+- tlak to you later
+- toodle-oo
+- Exit
+- Close this talk
+- अलविदा
+- अलविदा!
+- बाद में मिलते है
+- बाय बॉट
+- अलविदा दोस्त
+- अभी के लिए अलविदा
+- बाद में मिलता हूँ
+- मुझे जाना है
+- फिर मिलते हैं
+- शुभ रात्रि
+- आपका दिन शुभ हो
+- मैं जा रहा हूँ
+- हम जल्द ही बात करेंगे
+- आदियो
+- आदियो?
+- बाय बाय
+- अलविदा बॉट
+- अलविदा आपसे बात करके अच्छा लगा
+- बाय
+- सियाओ
+- गुड बाय रसा बॉट!
+- मुझे जाना है
+- चलो बाय
+- फिर मिलेंगे
+- फिर मिलते हैं
+- फिर मिलते हैं, अलविदा
+- ख्याल रखना
+- फिर अलविदा
+- यह बात बंद करो
+- ठीक है अलविदा
+
+## intent:affirm
+- Accept
+- Awesome!
+- Cool
+- Good
+- Great
+- I accept
+- I accept.
+- I agree
+- I am using it
+- I changed my mind. I want to accept it
+- I do
+- I get it
+- I guess so
+- I have used it in the past
+- I will
+- I'd absolutely love that
+- I'm sure I will!
+- I'm using it
+- Nice
+- OK
+- Ofcourse
+- Oh yes
+- Oh, ok
+- Ok
+- Ok let's start
+- Ok.
+- Okay
+- Okay!
+- PLEASE
+- SURE
+- Sure
+- Sweet
+- That would be great
+- YES
+- YUP
+- Yea
+- Yeah
+- Yeah sure
+- Yep
+- Yep that's fine
+- Yep!
+- Yepp
+- Yes
+- Yes I do
+- Yes please
+- Yes please!
+- Yes, I accept
+- Yes.
+- Yup
+- a little
+- absolutely
+- accept
+- accepted
+- agreed
+- ah ok
+- alright
+- alright, cool
+- amayzing
+- amazing!
+- awesome
+- awesome!
+- confirm
+- cool
+- cool :)
+- cool story bro
+- cool!
+- coolio
+- definitely yes without a doubt
+- done
+- fair enough
+- fcourse
+- fine
+- fuck yeah!
+- go
+- go ahead
+- go for it
+- going super well
+- good
+- good.
+- great
+- great lets do that
+- great!
+- hell yeah
+- hell yes
+- hm, i'd like that
+- how nice!
+- i accept
+- i agree
+- i am!
+- i want that
+- i will!
+- it is ok
+- its okay
+- ja
+- ja cool
+- ja thats great
+- jezz
+- jo
+- k
+- kk
+- lets do it
+- lets do this
+- nice
+- not bad
+- of course
+- ofcoure i do
+- ofcourse
+- oh awesome!
+- oh cool
+- oh good !!
+- oh super
+- ok
+- ok cool
+- ok fine
+- ok friend
+- ok good
+- ok great
+- ok i accept
+- ok sara
+- ok, I behave now
+- ok, I understood
+- ok, Sara
+- ok...
+- okay
+- okay cool
+- okay sure
+- okay..
+- oki doki
+- okie
+- ook
+- oui
+- perfect
+- please
+- si
+- sort of
+- sure
+- sure thing
+- sure!
+- that is cool
+- that ok
+- that sounds fine
+- that's great
+- thats fine
+- thats good
+- thats great
+- top
+- uh-huh
+- very much
+- well yes
+- y
+- ya
+- ya cool
+- ya go for it
+- ya i want
+- ya please
+- ya thats cool
+- yaah
+- yap
+- yaps
+- yas
+- yay
+- ye
+- ye splease
+- yea
+- yeah
+- yeah do that
+- yeah sure
+- yeah'=
+- yeah, why not
+- yeeeeezzzzz
+- yeeees
+- yep
+- yep i want that
+- yep if i have to
+- yep please
+- yep that's nice
+- yep thats cool
+- yep, will do thank you
+- yep. :/
+- yes
+- yes ...
+- yes I do
+- yes accept please
+- yes baby
+- yes cool
+- yes give me information
+- yes go ahead
+- yes go for it
+- yes great
+- yes i accept
+- yes i agree
+- yes i have built a bot before
+- yes i have!
+- yes it is
+- yes it was okay
+- yes of course
+- yes pleae
+- yes please
+- yes please!
+- yes pls
+- yes sirfr
+- yes that's great
+- yes that's what i want
+- yes you can
+- yes'
+- yes, I'd love to
+- yes, cool
+- yes, give me information, please
+- yes,i am
+- yes.
+- yesh
+- yess
+- yessoo
+- yesss
+- yesssss
+- yesyestyes
+- yesyesyes
+- yez
+- yop
+- you asked me a yes or no question, which i answered with yes
+- you got me, I accept, if you want me to
+- yres
+- ys
+- yup
+- yyeeeh
+- considering
+- indeed
+- of course
+- that sounds good
+- correct
+- yes sure
+- absolutely
+- for sure
+- yes yes yes
+- definitely
+- yeah
+- si
+- ok
+- okay
+- स्वीकार करना
+- बहुत बढ़िया!
+- ठंडा
+- अच्छा
+- महान
+- मुझे स्वीकार है
+- मैं सहमत हूँ
+- मैं इसका इस्तेमाल कर रहा हूं
+- मैंने अपना मन बदल लिया है। मैं इसे स्वीकार करना चाहता हूं
+- मैं करता हूँ
+- मैं समझ गया
+- मुझे ऐसा लगता हैं
+- मैंने अतीत में इसका इस्तेमाल किया है
+- मे लूँगा
+- मैं बिल्कुल प्यार करता हूँ
+- मुझे यकीन है कि मैं कर लूंगा!
+- मैं इसका उपयोग कर रहा हूँ
+- अच्छा लगा
+- ठीक
+- बेशक
+- अरे हाँ
+- ओह ठीक
+- ठीक है
+- ठीक है चलो शुरू करें
+- ठीक है!
+- कृप्या
+- ज़रूर
+- मिठाई
+- वह महान होगा
+- हां यकीनन
+- हाँ, यह ठीक है
+- हां!
+- येप्प
+- हाँ
+- हां, है
+- हाँ कृपया
+- हाँ कृपया!
+- हां मुझे स्वीकार है
+- हाँ।
+- हाँ
+- थोड़ा सा
+- पूर्ण रूप से
+- स्वीकार करना
+- स्वीकार किए जाते हैं
+- माना
+- आह अच्छा
+- ठीक है
+- ठीक है बढ़िया # ठीक है शांत रहो
+- अमेजिंग
+- गजब का!
+- बहुत बढ़िया
+- बहुत बढ़िया!
+- पुष्टि करें
+- ठंडा
+- ठंडा :)
+- मजेदार कहानी है भाई
+- ठंडा!
+- कूलियो
+- निश्चित रूप से एक शक के बिना हाँ
+- किया हुआ
+- काफी उचित
+- fcourse
+- ठीक
+- भाड़ में जाओ हाँ!
+- जाओ
+- आगे बढ़ें
+- इसके लिए जाओ
+- सुपर सुपर जा रहा है
+- अच्छा
+- अच्छा।
+- महान
+- महान चलो ऐसा करते हैं
+- महान!
+- जी हाँ
+- अरे हाँ
+- हम्म, मैं ऐसा चाहूंगा
+- कितना अच्छा है!
+- मुझे स्वीकार है
+- मैं सहमत हूँ
+- मैं हूँ!
+- मझे वह चहिए
+- मे लूँगा!
+- यह ठीक है
+- ठीक है
+- जा
+- जा कूल
+- जावेद महान
+- जीज
+- जो
+- क
+- केके
+- चलो यह करते हैं
+- चलो इसे करते हैं
+- अच्छा है
+- बुरा नहीं
+- बेशक
+- टोकेरे मैं करता हूं
+- बेशक
+- ओह कमाल!
+- ओह बढ़िया
+- ओह अच्छा !!
+- ओह सुपर
+- ठीक
+- अच्छा ठीक है
+- अच्छी बात है
+- ठीक दोस्त
+- ठीक अच्छा
+- ठीक है अच्छा है
+- ठीक है, मैं स्वीकार करता हूँ
+- ठीक है सर
+- ठीक है, मैं अब व्यवहार करता हूं
+- ठीक हैं मैं समझ गया
+- ठीक है, सारा
+- ठीक...
+- ठीक है
+- ठीक है
+- पक्का निश्चित
+- ठीक है..
+- ठीक ठाक
+- ओकी
+- ook
+- इउइ
+- उत्तम
+- कृप्या
+- सी
+- की तरह
+- ज़रूर
+- ज़रूर
+- ज़रूर!
+- वह शांत है
+- यह ठीक है
+- यह अच्छा प्रतीत होता है
+- यह बहुत अच्छा है
+- कोई बात नहीं
+- यह अच्छी बात है
+- यह बहुत अच्छा है
+- ऊपर
+- अहां
+- बहुत ज्यादा
+- सही है
+- हां
+- फिर कूल
+- इसके लिए फिर जाएं
+- हां मुझे चाहिए
+- हां प्लीज
+- हां मस्त
+- याह
+- हां
+- याप
+- यस
+- वाह
+- तु
+- हाँ कृपया
+- हाँ
+- हाँ
+- हाँ ऐसा करो
+- हां यकीनन
+- हाँ '=
+- हां क्यों नहीं
+- येइज़ीज़्ज़्ज़
+- जी हाँ
+- हां
+- हाँ मैं चाहता हूँ कि
+- हाँ, अगर मुझे करना है
+- हाँ कृपया
+- हाँ, यह अच्छा है
+- हां, यह अच्छा है
+- हाँ, धन्यवाद करेंगे
+- हां। :/
+- हाँ
+- हाँ ...
+- हा करता हु
+- हाँ कृपया स्वीकार करें
+- हाँ बेबी
+- हां जी
+- हां मुझे जानकारी दें
+- हां आगे बढ़ो
+- हाँ इसके लिए जाओ
+- बहुत अच्छे
+- हां मुझे स्वीकार है
+- हाँ मैं सहमत हूँ
+- हाँ, मैंने पहले एक बॉट बनाया है
+- हाँ मेरे पास है!
+- हाँ यही है
+- हाँ यह ठीक था
+- हां बिल्कुल
+- हाँ विनती
+- हाँ कृपया
+- हाँ कृपया!
+- हाँ pls
+- हाँ सरफ़र
+- हां ये तो शानदार है
+- हाँ, यही तो मैं चाहता हूँ
+- हाँ तुम कर सकते हो
+- हाँ'
+- हाँ, मुझे खुशी होगी
+- हां जी
+- हां, मुझे जानकारी दें, कृपया
+- आपने मुझसे हां या ना का सवाल पूछा, जिसका मैंने हां में जवाब दिया
+- आप मुझे मिल गए, मुझे स्वीकार है, अगर आप मुझे चाहते हैं
+- यार
+- वाई.एस.
+- येयेह
+- वास्तव में
+- बेशक
+- वह अच्छा प्रतीत होता है
+- सही बात
+- हाँ यकीनन
+- पूर्ण रूप से
+- पक्का
+- हाँ हाँ हाँ
+- निश्चित रूप से
+- हाँ
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- not today
+- no thanks
+- no thank you
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
+- I don't want to
+- I don't want to give it to you
+- I don't want to say
+- I dont want to tell
+- I'm not going to give it to you
+- NEIN
+- NO
+- NO DON"T WANT THIS!
+- Nah
+- Neither
+- Never
+- Nevermind
+- No
+- No thank you
+- No, not really.
+- No, thank you
+- No.
+- Nopes
+- Not really
+- absolutely not
+- decline
+- definitely not
+- deny
+- i decline
+- i don not like this
+- i don't think so
+- i don't want either of those
+- i don't want to
+- i dont want to
+- i dont want to accept :P lol
+- i guess it means - no
+- i'm afraid not
+- i'm not sure
+- it is going pretty badly
+- it sucks
+- it sux
+- n
+- na
+- nah
+- nah I'm good
+- nah not for me
+- nah, first time
+- nah, i'm good
+- nehi
+- nein
+- neither
+- never
+- never mind
+- no
+- no :(
+- no I dont want
+- no and no again
+- no bots at all
+- no go
+- no i can't
+- no i don't accept
+- no i dont want to
+- no i dont want to accept :P lol
+- no i won't
+- no ma'am
+- no sir
+- no sorry
+- no thank s
+- no thank you
+- no thanks
+- no way
+- no you did it wrong
+- no!!!!
+- no, i hate it
+- no, my frst time
+- no, thank you
+- no, thanks
+- no, thankyou
+- no. u r idiot
+- non
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
+- nop
+- nope
+- nope!
+- nope. i am good
+- not going well at all
+- not really
+- not right now
+- not yet
+- nö
+- sorry not right now
+- still dont want to tell
+- thanks but no thanks
+- this sucks
+- very bad
+- I do not need help installing
+- I don't wanna tell the name of my 
+- no stop
+- stop it, i do not care!!!
+- नहीं
+- कभी नहीँ
+- मुझे ऐसा नहीं लगता
+- ऐसा नहीं है
+- बिल्कुल नहीं
+- ज़रुरी नहीं
+- आज नहीं
+- जी नहीं, धन्यवाद
+- नहीं धन्यवाद
+- उह नहीं
+- नहीं
+- क्या आपके पास कुछ और है
+- नहीं यह मेरे लिए काम नहीं करता है
+- मैं नहीं करना चाहता
+- मैं इसे आपको नहीं देना चाहता
+- मैं कहना नहीं चाहता
+- मैं बताना नहीं चाहता
+- मैं इसे आपको देने नहीं जा रहा हूं
+- नहीं
+- नहीं "टी यह चाहते हैं!
+- नह
+- न तो
+- कभी नहीँ
+- कोई बात नहीं
+- नहीं
+- नहीं धन्यवाद
+- नहीं वास्तव में नहीं।
+- नहीं धन्यवाद
+- नहीं।
+- नोपस
+- ज़रुरी नहीं
+- बिलकुल नहीं
+- पतन
+- निश्चित रूप से नहीं
+- मना
+- मैंने गिराया
+- मैं ऐसा नहीं हूं
+- मुझे ऐसा नहीं लगता
+- मैं उनमें से किसी को भी नहीं चाहता
+- मैं नहीं चाहता
+- मैं नहीं करना चाहता
+- मैं स्वीकार नहीं करना चाहता: पी योग्य
+- मुझे लगता है इसका मतलब है - नहीं
+- मुझे डर नहीं लग रहा है
+- मुझे यकीन नहीं है
+- यह बहुत बुरा हो रहा है
+- यह बेकार है
+- ना
+- नाह
+- न तो
+- कभी नहीँ
+- कोई बात नहीं
+- नहीं :(
+- नहीं, मैं नहीं चाहता
+- नहीं और फिर नहीं
+- बॉट्स बिलकुल नहीं
+- नही जाओ
+- नहीं, मैं नहीं कर सकता
+- नहीं, मैं नहीं मानता
+- नहीं, मैं नहीं करना चाहता
+- नहीं मैं स्वीकार नहीं करना चाहता: पी योग्य
+- नहीं, मैं नहीं करूँगा
+- नहीं महोदया
+- नहीं साहब
+- कोई खेद नहीं
+- जी नहीं, धन्यवाद
+- नहीं धन्यवाद
+- जी नहीं, धन्यवाद
+- बिल्कुल नहीं
+- नहीं, आपने गलत किया
+- नहीं!!!!
+- नहीं मुझे उससे नफरत है
+- नहीं, मेरा फ्रस्ट टाइम है
+- नहीं धन्यवाद
+- जी नहीं, धन्यवाद
+- नहीं धन्यवाद
+- नहीं। यू आर इडियट
+- गैर
+- झपकी
+- नहीं
+- नहीं!
+- नहीं। मैं अच्छा हूँ
+- बिल्कुल भी ठीक नहीं चल रहा है
+- ज़रुरी नहीं
+- अभी नहीं
+- नहीं
+- क्षमा करें अभी नहीं
+- अभी भी बताना नहीं चाहता
+- धन्यवाद, लेकिन इसकी कोई ज़रूरत नहीं
+- यह बेकार है
+- बहुत बुरा
+- मुझे स्थापित करने में सहायता की आवश्यकता नहीं है
+- इसे रोको, मुझे परवाह नहीं है !!!
+
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- उत्तम
+- बहुत अच्छा
+- महान
+- गजब का
+- आश्चर्यजनक
+- मुझे बहुत अच्छा लग रहा है
+- मैं महान हूं
+- मैं अच्छा हूँ
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- उदास
+- बहुत दुख की बात है
+- दुखी
+- खराब
+- बहुत बुरा
+- भयानक
+- बहुत अच्छा नहीं
+- अत्यधिक दुखी
+- बहुत दुख की बात

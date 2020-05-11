@@ -5,19 +5,28 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
-  - bot_challenge
   - search_request
   - inform
   - roll_finder
   - thanks
-  - out_of_scope
+  - chitchat
+  - feedback
+  - out_of_scope:
+      triggers: respond_out_of_scope
+  - react_negative
+  - react_positive
+  - human_handoff
+  - trigger_rephrase
 
 entities:
   - facility_type
   - facility_id
   - location
   - name
-  - booln
+  - language
+  - language_type
+  - feedback_value
+  - result
 
 slots:
   location:
@@ -30,55 +39,235 @@ slots:
     type: unfeaturized
   address:
     type: unfeaturized
+  language:
+    type: categorical
+    values:
+      - Hindi
+      - English
+  feedback_message:
+    type: unfeaturized
+  feedback_value:
+    type: categorical
+    values:
+      - positive
+      - negative
+  result:
+    type: categorical
+    values:
+      - positive
+      - negative  
 
 forms:
 - facility_form
 
 actions:
+- action_say_address
 - utter_address
+- utter_address_hi
+- action_goodbye
 - utter_goodbye
-- utter_iamabot
+- utter_goodbye_hi
 - utter_greet_botdescription
-- utter_ask_location
+- utter_greet_botdescription_hi
+- utter_ask_loc
+- utter_ask_loc_hi
 - utter_ask 
 - utter_pos_goodbye
 - utter_neg_goodbye
 - find_facility_types
 - find_healthcare_address
 - action_findroll
+- action_default_ask_affirmation
+- action_default_fallback
+- find_language_type
+- respond_out_of_scope
+- action_great
+- utter_great
+- utter_great_hi
+- action_ask_feedback
+- utter_ask_feedback
+- utter_ask_feedback_hi
+- utter_thumbsup
+- action_anything_else
+- utter_anything_else
+- utter_anything_else_hi
+- utter_noworries
+- utter_react_negative
+- utter_react_positive
+- action_contact_email
+- utter_contact_email
+- utter_contact_email_hi
+- utter_possibilities
+- utter_ask_feedback_message
+- utter_default
+- utter_default_hi
+- utter_greet_name
+- utter_restart
+- utter_restart_with_button
+- utter_ask_rephrase
+- utter_ask_rephrase_hi
+- respond_chitchat
+- utter_nohelp
+- action_what_help
+- utter_what_help
+- utter_what_help_hi
+- action_ask_location
 
 responses:
+  utter_contact_email:
+  - text: You can’t speak to a human directly in this chat, but you can email us at hrithikagarwal123@gmail.com.
+  utter_contact_email_hi:
+  - text: आप इस चैट में किसी मानव से सीधे बात नहीं कर सकते, लेकिन आप हमें hrithikagarwal123@gmail.com पर ईमेल कर सकते हैं.
+  utter_what_help:
+  - text: Ok, what can I help you with?
+  utter_what_help_hi:
+  - text: "ठीक है, मैं आपकी क्या मदद कर सकता हूं?"
+  utter_nohelp:
+  - text: For now that's all I can do, so feel free to try it out. If you have any
+      suggestions for what I should learn, let me know!
+  utter_greet_name:
+  - text: Hi, {name}!
+  - text: Hello, {name}!
+  - text: Hey, {name}!
+  utter_goodbye_hi:
+  - text: "मैं आपसे बाद में बात करूंगा!"
+  - text: "आपका दिन शुभ हो।"
+  - text: "अगली बार तक!"
   utter_goodbye:
   - text: "Talk to you later!"
   - text: "Have a good day."
   - text: "Until next time!"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
   utter_greet_botdescription:
   - text: "Hello, I am a medicare locator as weel as roll number finder of IITB students. How can i help?"
   - text: "hey, my name is medicare locator cum roll number finder, How can i help you today?"
   - text: "Hey there! Please choose one of the healthcare facility options:"
+  
+  utter_greet_botdescription_hi:
+  - text: "हैलो, मैं एक चिकित्सा लोकेटर के साथ-साथ भारतीय प्रौद्योगिकी संस्थान मुंबई के छात्रों के रोल नंबर खोजक हूँ। मैं आपकी कैसे मदद कर सकता हूँ?"
+  - text: "हे, मेरा नाम चिकित्सा लोकेटर सह रोल नंबर खोजक, कैसे मैं तुम्हें आज में मदद कर सकते है?"
+  - text: "हैलो! स्वास्थ्य सुविधा विकल्पों में से एक का चयन करें:"
 
-  utter_ask_location:
-  - text: " to find the nearest {facility_type} please provide your location!"
+  utter_ask_loc:
+  - text: "to find the nearest {facility_type} please provide your location!"
   - text: "Please provide your city name."
   - text: "What is your current city?"
   - text: "Please provide your city name or zip code."
   - text: "Please enter your zip code or city name to find local providers."
 
+  utter_ask_loc_hi:
+  - text: "निकटतम {facility_type} खोजने के लिए कृपया अपना स्थान प्रदान करें!"
+  - text: "कृपया अपने शहर का नाम प्रदान करें।"
+  - text: "आपका वर्तमान शहर क्या है?"
+  - text: "कृपया अपने शहर का नाम या ज़िप कोड प्रदान करें।"
+  - text: "स्थानीय प्रदाता खोजने के लिए कृपया अपना ज़िप कोड या शहर का नाम दर्ज करें।"
+
   utter_ask:
-  - text: " Was that correct?"
+  - buttons:
+    - payload: /inform{"result":"positive"}
+      title: 👍
+    - payload: /inform{"result":"negative"}
+      title: 👎
+    text: " Was that correct?"
 
   utter_pos_goodbye:
   - text: " Great, Thanks for visiting us!"
+  - text: Goodbye!
+  - text: Bye!
+  - text: Ciao!
+  - text: Bye, was nice talking to you!
+  - text: Bye bye!
 
   utter_neg_goodbye:
   - text: " Sorry, we will provide you with improved services next time!"
 
   utter_address:
   - text: "The address is {address}."
+
+  utter_address_hi:
+  - text: "पता इस प्रकार है: {address}."
+
+  utter_anything_else:
+  - text: Is there anything else I can help you with?
+
+  utter_anything_else_hi:
+  - text: क्या मैं आपकी मदद कर सकता हूं?
+
+  utter_noworries:
+  - text: No worries!
+  - text: You're welcome!
+  - text: I'm happy to help.
+
+  utter_react_negative:
+  - text: 😕
+  - text: 😞
+  - text: 😥
+  - text: 😢
+  utter_react_positive:
+  - text: 😄
+  - text: 😊
+  - text: 👏
+  - text: 😍
+  utter_great:
+  - text: Great! 👍
+  - text: That's great! 🙌
+  - text: Awesome! 🎉
+  - text: Cool!!🚀
+  utter_great_hi:
+  - text: एक दम बढ़िया! 👍
+  - text: एक दम बढ़िया! 🙌
+  - text: बहुत बढ़िया! 🎉
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: How is this conversation going?
+  utter_ask_feedback_hi:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positive"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negative"}
+      title: 👎
+    text: यह बातचीत कैसी चल रही है?
+  utter_thumbsup:
+  - text: 👍
+  - text: Okay.
+  - text: Got it.
+  utter_possibilities:
+  - text: "You can ask me about:\n- how to get started with Rasa\n- the components\
+      \ of Rasa,\n- booking a sales call\n- subscribing to our newsletter\n"
+  utter_ask_feedback_message:
+  - text: I'm sorry I couldn't help you. Please let me know if you have any suggestions
+      for how I can improve.
+  utter_default:
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_default_hi:
+  - text: "क्षमा करें, मुझे समझ में नहीं आया🤷. आप कृपया फिर से पढ़ सकते हैं?"
+  - text: "मुझे समझ नहीं आया, क्या आप इसे फिर से पढ़ सकते हैं?"
+  - text: "मुझे क्षमा करें, लेकिन मैं आपको समझ नहीं पाया। क्या आप कृपया यह बता सकते हैं कि आप क्या कर रहे हैं"
+  - text: "मुझे डर है कि मुझे वह नहीं मिला जो आपने अभी कहा था। आप फिर से पढ़ सकते हैं?"
+  - text: "मुझे समझ नहीं आया, क्या आप अपना संदेश पुनः प्राप्त कर सकते हैं??"
+  - text: "क्या आप अपना संदेश पुनः प्राप्त कर सकते हैं? मुझे नहीं मिला, मुझे क्षमा करें."
+  utter_restart:
+  - text: Loading... And I've been restarted! 🤯
+  - text: Congrats you've restarted me! 😉
+  utter_restart_with_button:
+  - buttons:
+    - payload: /restart
+      title: Restart/पुनर्प्रारंभ करें
+    text: Click the button below if you want to start over/ यदि आप पुन शुरू करना चाहते हैं तो नीचे दिए गए बटन पर क्लिक करें
+  utter_ask_rephrase:
+  - text: Can you rephrase the question?
+  utter_ask_rephrase_hi:
+  - text: "कृपया प्रश्न को फिर से लिखें?"
 
 session_config:
   session_expiration_time: 60

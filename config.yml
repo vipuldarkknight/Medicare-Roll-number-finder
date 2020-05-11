@@ -1,20 +1,27 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: hi
 pipeline: 
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
+    OOV_token: oov
+    token_pattern: (?u)\b\w+\b
   - name: CountVectorsFeaturizer
     analyzer: "char_wb"
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
+    ranking_length: 5
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 100
+    retrieval_intent: out_of_scope
+    scale_loss: false
+  - name: ResponseSelector
+    retrieval_intent: chitchat
+    scale_loss: false
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
@@ -26,3 +33,9 @@ policies:
   - name: MappingPolicy
   - name: FormPolicy
   - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.6
+    ambiguity_threshold: 0.2
+    core_threshold: 0.7
+    fallback_core_action_name: "action_default_fallback"
+    fallback_nlu_action_name: "action_default_ask_affirmation"
+    deny_suggestion_intent_name: "out_of_scope"
